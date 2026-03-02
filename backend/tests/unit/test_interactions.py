@@ -40,3 +40,4 @@ def test_filter_excludes_interaction_with_different_learner_id():
     
     assert len(filtered) == 2
     assert all(i.item_id == 1 for i in filtered)
+    
